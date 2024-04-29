@@ -1,0 +1,2250 @@
+{
+  "mod_elements": [
+    {
+      "name": "Green",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/green_tree.json",
+          "src/main/java/net/mcreator/testtttttttttt/world/features/treedecorators/GreenTrunkDecorator.java",
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/green_tree.json",
+          "src/main/java/net/mcreator/testtttttttttt/world/features/treedecorators/GreenLeaveDecorator.java",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/green.json",
+          "src/main/java/net/mcreator/testtttttttttt/world/features/treedecorators/GreenFruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Warmdesert",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warmdesert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/warmdesert_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/warmdesert_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/warmdesert.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironhammer",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/ironhammer.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/IronhammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ih1",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ih_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/ih_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Tundra",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainy_modifided_dark_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/world/features/treedecorators/TundraLeaveDecorator.java",
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/rainy_modifided_dark_forest_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/rainy_modifided_dark_forest.json",
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/rainy_modifided_dark_forest_tree.json",
+          "src/main/java/net/mcreator/testtttttttttt/world/features/treedecorators/TundraTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Loot",
+      "type": "code",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/Loot.java"
+        ]
+      }
+    },
+    {
+      "name": "Tropicaldarkforest",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tropicaldarkforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/advancements/tropicaldarkforest.json"
+        ]
+      }
+    },
+    {
+      "name": "Egor",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/advancements/egor.json"
+        ]
+      }
+    },
+    {
+      "name": "NO",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/NOItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/bread.json"
+        ]
+      }
+    },
+    {
+      "name": "Dripstonesand",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonesand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/dripstonesand.json",
+          "src/main/resources/assets/meyola_biomes/models/block/dripstonesand.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/dripstonesand.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/dripstonesand.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/DripstonesandBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Dripstonedesert",
+      "type": "biome",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonedesert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/dripstonedesert_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/dripstonedesert.json",
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/dripstonedesert_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Dripstoneglass",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstoneglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/dripstoneglass.json",
+          "src/main/resources/assets/meyola_biomes/models/item/dripstoneglass.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/dripstoneglass.json",
+          "src/main/resources/assets/meyola_biomes/models/block/dripstoneglass.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/DripstoneglassBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Ddd",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/ddd.json"
+        ]
+      }
+    },
+    {
+      "name": "Grassplains",
+      "type": "biome",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassplains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/grassplains_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/grassplains.json",
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/grassplains_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Degor",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "degor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/advancements/degor.json"
+        ]
+      }
+    },
+    {
+      "name": "Cto",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/world/inventory/CtoMenu.java",
+          "src/main/java/net/mcreator/testtttttttttt/client/gui/CtoScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Strengthener",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strengthener",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/block/StrengthenerBlock.java",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/strengthener.json",
+          "src/main/resources/assets/meyola_biomes/models/block/strengthener.json",
+          "src/main/resources/assets/meyola_biomes/models/item/strengthener.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/strengthener.json"
+        ]
+      }
+    },
+    {
+      "name": "Chot",
+      "type": "keybind",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/network/ChotMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Chofe",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chofe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/procedures/ChofeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dfdfdf",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dfdfdf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/dfdfdf.json"
+        ]
+      }
+    },
+    {
+      "name": "Strengerplanks",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strengerplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/strengerplanks.json",
+          "src/main/resources/assets/meyola_biomes/models/item/strengerplanks.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/StrengerplanksBlock.java",
+          "src/main/resources/assets/meyola_biomes/models/block/strengerplanks.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/strengerplanks.json"
+        ]
+      }
+    },
+    {
+      "name": "SPC",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/spc.json"
+        ]
+      }
+    },
+    {
+      "name": "Strengercobblestone",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strengercobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/strengercobblestone.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/strengercobblestone.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/strengercobblestone.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/StrengercobblestoneBlock.java",
+          "src/main/resources/assets/meyola_biomes/models/block/strengercobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "SCC",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/scc.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtMeadow",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_meadow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/dirt_meadow_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/dirt_meadow.json",
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/dirt_meadow_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Floweringgrass",
+      "type": "plant",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floweringgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/forge/biome_modifier/floweringgrass_biome_modifier.json",
+          "src/main/resources/assets/meyola_biomes/models/item/floweringgrass.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/floweringgrass.json",
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/floweringgrass.json",
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/floweringgrass.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/FloweringgrassBlock.java",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/floweringgrass.json",
+          "src/main/resources/assets/meyola_biomes/models/block/floweringgrass.json"
+        ]
+      }
+    },
+    {
+      "name": "UnbreakableFloor",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unbreakable_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/unbreakable_floor.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/UnbreakableFloorBlock.java",
+          "src/main/resources/assets/meyola_biomes/blockstates/unbreakable_floor.json",
+          "src/main/resources/assets/meyola_biomes/models/block/unbreakable_floor.json",
+          "src/main/resources/assets/meyola_biomes/models/item/unbreakable_floor.json"
+        ]
+      }
+    },
+    {
+      "name": "Backrooms",
+      "type": "dimension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/world/dimension/BackroomsDimension.java",
+          "src/main/resources/data/meyola_biomes/dimension/backrooms.json",
+          "src/main/resources/data/meyola_biomes/dimension_type/backrooms.json"
+        ]
+      }
+    },
+    {
+      "name": "UnbreakableStena",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unbreakable_stena",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/unbreakable_stena.json",
+          "src/main/resources/assets/meyola_biomes/models/item/unbreakable_stena.json",
+          "src/main/resources/assets/meyola_biomes/models/block/unbreakable_stena.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/UnbreakableStenaBlock.java",
+          "src/main/resources/assets/meyola_biomes/blockstates/unbreakable_stena.json"
+        ]
+      }
+    },
+    {
+      "name": "GrassPlans",
+      "type": "biome",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_plans",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/grass_plans_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/grass_plans.json",
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/grass_plans_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Grifing",
+      "type": "dimension",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grifing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/world/dimension/GrifingDimension.java",
+          "src/main/resources/data/meyola_biomes/dimension_type/grifing.json",
+          "src/main/resources/data/meyola_biomes/dimension/grifing.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhammer",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/CopperhammerItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/copperhammer.json"
+        ]
+      }
+    },
+    {
+      "name": "CH10101010100101",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ch_10101010100101",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/ch_10101010100101.json"
+        ]
+      }
+    },
+    {
+      "name": "Ionenginesheating",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ionenginesheating",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/ionenginesheating.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/ionenginesheating.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/IonenginesheatingBlock.java",
+          "src/main/resources/assets/meyola_biomes/models/block/ionenginesheating.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/ionenginesheating.json"
+        ]
+      }
+    },
+    {
+      "name": "IES",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/ies.json"
+        ]
+      }
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/salt.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/SaltItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Saltblock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saltblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/blockstates/saltblock.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/SaltblockBlock.java",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/saltblock.json",
+          "src/main/resources/assets/meyola_biomes/models/block/saltblock.json",
+          "src/main/resources/assets/meyola_biomes/models/item/saltblock.json"
+        ]
+      }
+    },
+    {
+      "name": "SC",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/sc.json"
+        ]
+      }
+    },
+    {
+      "name": "Greenpaper",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenpaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/GreenpaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/greenpaper.json"
+        ]
+      }
+    },
+    {
+      "name": "GPC",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gpc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/gpc.json"
+        ]
+      }
+    },
+    {
+      "name": "Instantnoodles",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instantnoodles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/instantnoodles.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/InstantnoodlesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "INC",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/inc.json"
+        ]
+      }
+    },
+    {
+      "name": "Redpaper",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redpaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/RedpaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/redpaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Orangepaper",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangepaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/OrangepaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/orangepaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Yellowpaper",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowpaper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/yellowpaper.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/YellowpaperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Limepaper",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limepaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/LimepaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/limepaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightbluepaper",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbluepaper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/lightbluepaper.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/LightbluepaperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bluepaper",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluepaper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/bluepaper.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/BluepaperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Purplepaper",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplepaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/PurplepaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/purplepaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Magentapaper",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magentapaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/MagentapaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/magentapaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Pinkpaper",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkpaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/PinkpaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/pinkpaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Brownpaper",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownpaper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/brownpaper.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/BrownpaperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Blackpaper",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackpaper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/blackpaper.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/BlackpaperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Graypaper",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graypaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/GraypaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/graypaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightgraypaper",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgraypaper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/LightgraypaperItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/lightgraypaper.json"
+        ]
+      }
+    },
+    {
+      "name": "P1",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_1.json"
+        ]
+      }
+    },
+    {
+      "name": "P2",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_2.json"
+        ]
+      }
+    },
+    {
+      "name": "P3",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_3.json"
+        ]
+      }
+    },
+    {
+      "name": "P4",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_4.json"
+        ]
+      }
+    },
+    {
+      "name": "P5",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_5.json"
+        ]
+      }
+    },
+    {
+      "name": "P6",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_6.json"
+        ]
+      }
+    },
+    {
+      "name": "P7",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_7.json"
+        ]
+      }
+    },
+    {
+      "name": "P8",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/p_8.json"
+        ]
+      }
+    },
+    {
+      "name": "P9",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_9.json"
+        ]
+      }
+    },
+    {
+      "name": "P10",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_10.json"
+        ]
+      }
+    },
+    {
+      "name": "P11",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_11.json"
+        ]
+      }
+    },
+    {
+      "name": "P12",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_12.json"
+        ]
+      }
+    },
+    {
+      "name": "P13",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/p_13.json"
+        ]
+      }
+    },
+    {
+      "name": "Redbook",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redbook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/RedbookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/redbook.json"
+        ]
+      }
+    },
+    {
+      "name": "Orangebook",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangebook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/OrangebookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/orangebook.json"
+        ]
+      }
+    },
+    {
+      "name": "Yellowbook",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowbook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/YellowbookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/yellowbook.json"
+        ]
+      }
+    },
+    {
+      "name": "Limebook",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limebook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/LimebookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/limebook.json"
+        ]
+      }
+    },
+    {
+      "name": "Greenbook",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenbook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/GreenbookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/greenbook.json"
+        ]
+      }
+    },
+    {
+      "name": "Lihtbluebook",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbluebook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/LihtbluebookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/lightbluebook.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluebook",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluebook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/BluebookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/bluebook.json"
+        ]
+      }
+    },
+    {
+      "name": "Purplebook",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplebook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/PurplebookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/purplebook.json"
+        ]
+      }
+    },
+    {
+      "name": "Magentabook",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magentabook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/MagentabookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/magentabook.json"
+        ]
+      }
+    },
+    {
+      "name": "Pinkbook",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkbook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/pinkbook.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/PinkbookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Brownbook",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownbook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/testtttttttttt/item/BrownbookItem.java",
+          "src/main/resources/assets/meyola_biomes/models/item/brownbook.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackbook",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackbook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/blackbook.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/BlackbookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Graybook",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graybook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/graybook.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/GraybookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Lightgraybook",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgraybook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/lightgraybook.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/LightgraybookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Whitebook",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whitebook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/whitebook.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/WhitebookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_1.json"
+        ]
+      }
+    },
+    {
+      "name": "B2",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_2.json"
+        ]
+      }
+    },
+    {
+      "name": "B3",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_3.json"
+        ]
+      }
+    },
+    {
+      "name": "B4",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_4.json"
+        ]
+      }
+    },
+    {
+      "name": "B5",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_5.json"
+        ]
+      }
+    },
+    {
+      "name": "B6",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_6.json"
+        ]
+      }
+    },
+    {
+      "name": "B7",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_7.json"
+        ]
+      }
+    },
+    {
+      "name": "B8",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_8.json"
+        ]
+      }
+    },
+    {
+      "name": "B9",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_9.json"
+        ]
+      }
+    },
+    {
+      "name": "B10",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_10.json"
+        ]
+      }
+    },
+    {
+      "name": "B11",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_11.json"
+        ]
+      }
+    },
+    {
+      "name": "B12",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_12.json"
+        ]
+      }
+    },
+    {
+      "name": "B13",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_13.json"
+        ]
+      }
+    },
+    {
+      "name": "B14",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_14.json"
+        ]
+      }
+    },
+    {
+      "name": "B15",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/b_15.json"
+        ]
+      }
+    },
+    {
+      "name": "Redbookshelf",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redbookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/redbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/redbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/redbookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/RedbookshelfBlock.java",
+          "src/main/resources/assets/meyola_biomes/blockstates/redbookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Orangebookshelf",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangebookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/block/orangebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/orangebookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/OrangebookshelfBlock.java",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/orangebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/orangebookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Yellowbookshelf",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowbookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/yellowbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/yellowbookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/YellowbookshelfBlock.java",
+          "src/main/resources/assets/meyola_biomes/blockstates/yellowbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/yellowbookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Limebookshelf",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limebookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/blockstates/limebookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/LimebookshelfBlock.java",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/limebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/limebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/limebookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Greenbookshelf",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenbookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/greenbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/greenbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/greenbookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/GreenbookshelfBlock.java",
+          "src/main/resources/assets/meyola_biomes/models/block/greenbookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightbluebookshelf",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbluebookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/lightbluebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/lightbluebookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/LightbluebookshelfBlock.java",
+          "src/main/resources/assets/meyola_biomes/models/item/lightbluebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/lightbluebookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluebookshelf",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluebookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/bluebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/bluebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/bluebookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/BluebookshelfBlock.java",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/bluebookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Purplebookshelf",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplebookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/purplebookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/PurplebookshelfBlock.java",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/purplebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/purplebookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/purplebookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Magentabookshelf",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magentabookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/magentabookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/magentabookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/magentabookshelf.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/magentabookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/MagentabookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Pinkbookshelf",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkbookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/block/pinkbookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/PinkbookshelfBlock.java",
+          "src/main/resources/assets/meyola_biomes/blockstates/pinkbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/pinkbookshelf.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/pinkbookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Brownbookshelf",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownbookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/block/brownbookshelf.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/brownbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/brownbookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/BrownbookshelfBlock.java",
+          "src/main/resources/assets/meyola_biomes/blockstates/brownbookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackbookshelf",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackbookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/blackbookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/BlackbookshelfBlock.java",
+          "src/main/resources/assets/meyola_biomes/models/block/blackbookshelf.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/blackbookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/blackbookshelf.json"
+        ]
+      }
+    },
+    {
+      "name": "Graybookshelf",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graybookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/graybookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/graybookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/block/graybookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/graybookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/GraybookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Lightgraybookshelf",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgraybookshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/block/lightgraybookshelf.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/lightgraybookshelf.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/lightgraybookshelf.json",
+          "src/main/resources/assets/meyola_biomes/models/item/lightgraybookshelf.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/LightgraybookshelfBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Q1",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Q2",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Q3",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Q4",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Q5",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Q6",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Q7",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_7.json"
+        ]
+      }
+    },
+    {
+      "name": "Q8",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_8.json"
+        ]
+      }
+    },
+    {
+      "name": "Q9",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_9.json"
+        ]
+      }
+    },
+    {
+      "name": "Q10",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_10.json"
+        ]
+      }
+    },
+    {
+      "name": "Q11",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_11.json"
+        ]
+      }
+    },
+    {
+      "name": "Q12",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_12.json"
+        ]
+      }
+    },
+    {
+      "name": "Q13",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_13.json"
+        ]
+      }
+    },
+    {
+      "name": "Q14",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/q_14.json"
+        ]
+      }
+    },
+    {
+      "name": "Grassgrassblock",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassgrassblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/block/grassgrassblock.json",
+          "src/main/resources/assets/meyola_biomes/blockstates/grassgrassblock.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/grassgrassblock.json",
+          "src/main/resources/assets/meyola_biomes/models/item/grassgrassblock.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/GrassgrassblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Cherryforest",
+      "type": "biome",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherryforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/placed_feature/cherryforest_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/configured_feature/cherryforest_tree.json",
+          "src/main/resources/data/meyola_biomes/worldgen/biome/cherryforest.json"
+        ]
+      }
+    },
+    {
+      "name": "Dripstoneglasspane",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstoneglasspane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/blockstates/dripstoneglasspane.json",
+          "src/main/resources/assets/meyola_biomes/models/block/dripstoneglasspane_noside.json",
+          "src/main/resources/assets/meyola_biomes/models/block/dripstoneglasspane_side.json",
+          "src/main/resources/data/meyola_biomes/loot_tables/blocks/dripstoneglasspane.json",
+          "src/main/java/net/mcreator/testtttttttttt/block/DripstoneglasspaneBlock.java",
+          "src/main/resources/assets/meyola_biomes/models/block/dripstoneglasspane_side_alt.json",
+          "src/main/resources/assets/meyola_biomes/models/item/dripstoneglasspane.json",
+          "src/main/resources/assets/meyola_biomes/models/block/dripstoneglasspane_noside_alt.json",
+          "src/main/resources/assets/meyola_biomes/models/block/dripstoneglasspane_post.json"
+        ]
+      }
+    },
+    {
+      "name": "DGP",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dgp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/recipes/dgp.json"
+        ]
+      }
+    },
+    {
+      "name": "N",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meyola_biomes/models/item/n.json",
+          "src/main/java/net/mcreator/testtttttttttt/item/NItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ufek",
+      "type": "achievement",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ufek",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/advancements/ufek.json"
+        ]
+      }
+    },
+    {
+      "name": "Domik",
+      "type": "structure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "domik",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/meyola_biomes/worldgen/template_pool/domik.json",
+          "src/main/resources/data/meyola_biomes/worldgen/structure_set/domik.json",
+          "src/main/resources/data/meyola_biomes/worldgen/structure/domik.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:Grassplains"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Cherryforest",
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:DirtMeadow",
+      "~CUSTOM:Grassplains",
+      "~CUSTOM:Dripstonedesert",
+      "~CUSTOM:Tundra"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Saltblock",
+      "~CUSTOM:Ionenginesheating",
+      "~CUSTOM:Strengercobblestone",
+      "~CUSTOM:Strengthener"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_mountain": [
+      "~CUSTOM:DirtMeadow",
+      "~CUSTOM:Dripstonedesert"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Grassgrassblock",
+      "~CUSTOM:Dripstonesand"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Cherryforest",
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:Grassplains",
+      "~CUSTOM:Tundra"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:Grassplains",
+      "~CUSTOM:Tundra"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Dripstonedesert",
+      "~CUSTOM:Tundra",
+      "~CUSTOM:Green"
+    ],
+    "BIOMES:minecraft:has_structure/village_taiga": [
+      "~CUSTOM:Cherryforest",
+      "~CUSTOM:DirtMeadow"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.MUD",
+      "~Blocks.DEEPSLATE",
+      "~Blocks.COBBLESTONE",
+      "~Blocks.ROOTED_DIRT",
+      "~Blocks.GRASS"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:Cherryforest"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Cherryforest",
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:Grassplains",
+      "~CUSTOM:Tundra"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Cherryforest",
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:DirtMeadow",
+      "~CUSTOM:Grassplains",
+      "~CUSTOM:Dripstonedesert",
+      "~CUSTOM:Tundra"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Strengerplanks"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:Grassplains",
+      "~CUSTOM:Tundra"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Cherryforest",
+      "~CUSTOM:GrassPlans",
+      "~CUSTOM:DirtMeadow",
+      "~CUSTOM:Grassplains",
+      "~CUSTOM:Tundra"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Floweringgrass"
+    ]
+  },
+  "language_map": {
+    "ru_ru": {
+      "block.testtttttttttt.dripstonesand": "Натёчный песок",
+      "gui.testtttttttttt.cto.button_ukriepit": "Укрепить",
+      "item.meyola_biomes.pinkbook": "Книга с розовой обложкой",
+      "item.meyola_biomes.lightbluebook": "Книга с голубой обложкой",
+      "item.meyola_biomes.lightgraypaper": "Светло-серая бумага",
+      "biome.testtttttttttt.grassplains": "Grassplains",
+      "advancements.egor.title": "Мистер легендарность",
+      "item.meyola_biomes.purplepaper": "Фиолетовая бумага",
+      "key.testtttttttttt.chot": "Chot",
+      "block.meyola_biomes.lightbluebookshelf": "Голубая книжная полка",
+      "block.testtttttttttt.strengerplanks": "Укреплённые доски",
+      "block.meyola_biomes.brownbookshelf": "Коричневая книжная полка",
+      "biome.meyola_biomes.grass_plans": "Grassplains",
+      "item.meyola_biomes.n": "N",
+      "gui.meyola_biomes.cto.label_vykhod": "Выход",
+      "biome.meyola_biomes.dripstonedesert": "Dripstonedesert",
+      "key.meyola_biomes.chot": "Chot",
+      "item.meyola_biomes.bluebook": "Книга с синей обложкой",
+      "block.meyola_biomes.graybookshelf": "Серая книжная полка",
+      "item.meyola_biomes.pinkpaper": "Розовая бумага",
+      "item.meyola_biomes.lightbluepaper": "Голубая бумага",
+      "block.meyola_biomes.dripstoneglass": "Натёчное стекло",
+      "item.meyola_biomes.lightgraybook": "Книга с светло-серой обложкой",
+      "biome.meyola_biomes.warmdesert": "Warmdesert",
+      "gui.testtttttttttt.cto.label_vkhod": "Вход",
+      "biome.testtttttttttt.warmdesert": "Warmdesert",
+      "item.meyola_biomes.brownpaper": "Коричневая бумага",
+      "advancements.degor.descr": "Зайдите в низкорослые джунгии",
+      "block.meyola_biomes.limebookshelf": "Лаймовая книжная полка",
+      "item.meyola_biomes.graybook": "Книга с серой обложкой",
+      "block.meyola_biomes.dripstonesand": "Натёчный песок",
+      "advancements.ufek.descr": "Получите угольный, железный, медный, редстоуновый, золотой, лазуритовый, алмазный, изумрудный и незеритовый блоки",
+      "item.meyola_biomes.magentabook": "Книга с пурпурной обложкой",
+      "block.meyola_biomes.dripstoneglasspane": "Натёчное стекло",
+      "block.testtttttttttt.dripstoneglass": "Натёчное стекло",
+      "block.meyola_biomes.bluebookshelf": "Синяя книжная полка",
+      "item.meyola_biomes.yellowbook": "Книга с жёлтой обложкой",
+      "gui.testtttttttttt.cto.label_ukriepliator": "Укрепитель",
+      "block.meyola_biomes.unbreakable_stena": "Unbreakable Stena",
+      "advancements.ufek.title": "Ходячий банк",
+      "item.meyola_biomes.greenpaper": "Зелёная бумага",
+      "item.meyola_biomes.blackpaper": "Чёрная бумага",
+      "gui.meyola_biomes.cto.label_ukriepliator": "Укрепитель",
+      "block.meyola_biomes.orangebookshelf": "Оранжевая книжная полка",
+      "item.meyola_biomes.salt": "Соль",
+      "item.testtttttttttt.no": "NO",
+      "block.meyola_biomes.lightgraybookshelf": "Светло-серая книжная полка",
+      "advancements.egor.descr": "Создайте незеритовый блок",
+      "gui.testtttttttttt.cto.label_vykhod": "Выход",
+      "block.meyola_biomes.pinkbookshelf": "Розовая книжная полка",
+      "block.meyola_biomes.magentabookshelf": "Пурпурная книжная полка",
+      "item.meyola_biomes.orangebook": "Книга с оранжевой обложкой",
+      "item.meyola_biomes.orangepaper": "Оранжевая бумага",
+      "block.meyola_biomes.floweringgrass": "Цветущая трава",
+      "biome.testtttttttttt.green": "Green",
+      "biome.meyola_biomes.cherryforest": "Cherryforest",
+      "item.meyola_biomes.copperhammer": "Медный молот",
+      "item.meyola_biomes.blackbook": "Книга с чёрной обложкой",
+      "item.meyola_biomes.instantnoodles": "Доширак",
+      "item.meyola_biomes.yellowpaper": "Жёлтая бумага",
+      "block.meyola_biomes.strengerplanks": "Укреплённые доски",
+      "item.meyola_biomes.purplebook": "Книга с фиолетовой обложкой",
+      "block.meyola_biomes.greenbookshelf": "Зелёная книжная полка",
+      "biome.meyola_biomes.dirt_meadow": "Dirt Meadow",
+      "block.meyola_biomes.purplebookshelf": "Фиолетовая книжная полка",
+      "advancements.tropicaldarkforest.descr": "Зайдите в Тропический тёмный лес",
+      "item.meyola_biomes.graypaper": "Серая бумага",
+      "block.testtttttttttt.strengercobblestone": "Укреплённый булыжник",
+      "advancements.degor.title": "Диковинные джунглии",
+      "item.meyola_biomes.whitebook": "Книга с белой обложкой",
+      "item.meyola_biomes.magentapaper": "Пурпурная бумага",
+      "block.testtttttttttt.strengthener": "Укрепитель",
+      "item.meyola_biomes.limebook": "Книга с лаймовой обложкой",
+      "biome.meyola_biomes.green": "Green",
+      "block.meyola_biomes.strengercobblestone": "Укреплённый булыжник",
+      "biome.testtttttttttt.dirt_meadow": "Dirt Meadow",
+      "block.meyola_biomes.blackbookshelf": "Чёрная книжная полка",
+      "block.meyola_biomes.yellowbookshelf": "Жёлтая книжная полка",
+      "item.meyola_biomes.bread": "NO",
+      "advancements.tropicaldarkforest.title": "Путешествия ведут к открытиям!",
+      "gui.meyola_biomes.cto.label_vkhod": "Вход",
+      "biome.meyola_biomes.rainy_modifided_dark_forest": "Rainy modifided dark forest",
+      "item.testtttttttttt.ironhammer": "Железный молот",
+      "item.meyola_biomes.redbook": "Книга с красной обложкой",
+      "block.meyola_biomes.saltblock": "Блок соли",
+      "item.meyola_biomes.bluepaper": "Синяя бумага",
+      "block.meyola_biomes.strengthener": "Укрепитель",
+      "item.meyola_biomes.limepaper": "Лаймовая бумага",
+      "item.meyola_biomes.redpaper": "Красная бумага",
+      "biome.testtttttttttt.rainy_modifided_dark_forest": "Rainy modifided dark forest",
+      "block.meyola_biomes.redbookshelf": "Красная книжная полка",
+      "biome.meyola_biomes.grassplains": "Grassplains",
+      "item.meyola_biomes.greenbook": "Книга с зелёной обложкой",
+      "gui.meyola_biomes.cto.button_ukriepit": "Укрепить",
+      "block.meyola_biomes.unbreakable_floor": "Unbreakable Floor",
+      "biome.testtttttttttt.dripstonedesert": "Dripstonedesert",
+      "block.meyola_biomes.grassgrassblock": "Блок опавших вишнёвых листьев",
+      "item.meyola_biomes.brownbook": "Книга с коричневой обложкой",
+      "block.meyola_biomes.ionenginesheating": "Обшивка ионного двигателя",
+      "item.meyola_biomes.ironhammer": "Железный молот"
+    },
+    "en_us": {
+      "block.testtttttttttt.dripstonesand": "Dripstone sand",
+      "gui.testtttttttttt.cto.button_ukriepit": "Strengthen",
+      "item.meyola_biomes.pinkbook": "Pink book",
+      "item.meyola_biomes.lightbluebook": "Light blue book",
+      "item.meyola_biomes.lightgraypaper": "Light gray paper",
+      "biome.testtttttttttt.grassplains": "Grassplains",
+      "advancements.egor.title": "Mr. Legendary",
+      "item.meyola_biomes.purplepaper": "Purple paper",
+      "key.testtttttttttt.chot": "Chot",
+      "block.meyola_biomes.lightbluebookshelf": "Light blue bookshelf",
+      "block.testtttttttttt.strengerplanks": "Strenger planks",
+      "block.meyola_biomes.brownbookshelf": "Brown bookshelf",
+      "biome.meyola_biomes.grass_plans": "Grassplains",
+      "gui.meyola_biomes.cto.label_vykhod": "Exit",
+      "item.meyola_biomes.n": "N",
+      "biome.meyola_biomes.dripstonedesert": "Dripstonedesert",
+      "key.meyola_biomes.chot": "Chot",
+      "item.meyola_biomes.bluebook": "Blue book",
+      "block.meyola_biomes.graybookshelf": "Gray bookshelf",
+      "item.meyola_biomes.pinkpaper": "Pink paper",
+      "item.meyola_biomes.lightbluepaper": "Light blue paper",
+      "block.meyola_biomes.dripstoneglass": "Dripstone glass",
+      "item.meyola_biomes.lightgraybook": "Light gray book",
+      "biome.meyola_biomes.warmdesert": "Warmdesert",
+      "gui.testtttttttttt.cto.label_vkhod": "Entry",
+      "biome.testtttttttttt.warmdesert": "Warmdesert",
+      "item.meyola_biomes.brownpaper": "Brown paper",
+      "advancements.degor.descr": "Enter the outlandish jungle.",
+      "block.meyola_biomes.limebookshelf": "Lime bookshelf",
+      "item.meyola_biomes.graybook": "Gray book",
+      "block.meyola_biomes.dripstonesand": "Dripstone sand",
+      "item.meyola_biomes.magentabook": "Magenta book",
+      "advancements.ufek.descr": "Get coal, iron, copper, rarestone, gold, lapis lazuli, diamond, emerald and neserite blocks",
+      "block.meyola_biomes.dripstoneglasspane": "Dripstone glass pane",
+      "block.testtttttttttt.dripstoneglass": "Dripstone glass",
+      "block.meyola_biomes.bluebookshelf": "Blue bookshelf",
+      "item.meyola_biomes.yellowbook": "Yellow book",
+      "gui.testtttttttttt.cto.label_ukriepliator": "Strengthener",
+      "block.meyola_biomes.unbreakable_stena": "Unbreakable Stena",
+      "advancements.ufek.title": "Walking bank",
+      "item.meyola_biomes.greenpaper": "Green paper",
+      "item.meyola_biomes.blackpaper": "Black paper",
+      "gui.meyola_biomes.cto.label_ukriepliator": "Strengthener",
+      "block.meyola_biomes.orangebookshelf": "Orange bookshelf",
+      "item.meyola_biomes.salt": "Salt",
+      "item.testtttttttttt.no": "NO",
+      "block.meyola_biomes.lightgraybookshelf": "Light gray bookshelf",
+      "advancements.egor.descr": "Create netherite block",
+      "gui.testtttttttttt.cto.label_vykhod": "Exit",
+      "block.meyola_biomes.pinkbookshelf": "Pink bookshelf",
+      "block.meyola_biomes.magentabookshelf": "Magenta bookshelf",
+      "item.meyola_biomes.orangebook": "Orange book",
+      "item.meyola_biomes.orangepaper": "Orange paper",
+      "block.meyola_biomes.floweringgrass": "Цветущая трава",
+      "biome.testtttttttttt.green": "Green",
+      "biome.meyola_biomes.cherryforest": "Cherryforest",
+      "item.meyola_biomes.copperhammer": "Copper hammer",
+      "item.meyola_biomes.blackbook": "Black Book",
+      "item.meyola_biomes.instantnoodles": "Instantnoodles",
+      "item.meyola_biomes.yellowpaper": "Yellow paper",
+      "block.meyola_biomes.strengerplanks": "Strenger plaks",
+      "item.meyola_biomes.purplebook": "Purple book",
+      "block.meyola_biomes.greenbookshelf": "Green bookshelf",
+      "biome.meyola_biomes.dirt_meadow": "Dirt Meadow",
+      "block.meyola_biomes.purplebookshelf": "Purple bookshelf",
+      "advancements.tropicaldarkforest.descr": "Go to Tropical dark forest",
+      "item.meyola_biomes.graypaper": "Gray paper",
+      "block.testtttttttttt.strengercobblestone": "Strenger cobblestone",
+      "advancements.degor.title": "Outlandish jungle.",
+      "item.meyola_biomes.whitebook": "White book",
+      "item.meyola_biomes.magentapaper": "Magenta paper",
+      "block.testtttttttttt.strengthener": "Strengthener",
+      "item.meyola_biomes.limebook": "Lime book",
+      "biome.meyola_biomes.green": "Green",
+      "block.meyola_biomes.strengercobblestone": "Strenger cobblestone",
+      "biome.testtttttttttt.dirt_meadow": "Dirt Meadow",
+      "block.meyola_biomes.blackbookshelf": "Black bookshelf",
+      "block.meyola_biomes.yellowbookshelf": "Yellow bookshelf",
+      "item.meyola_biomes.bread": "NO",
+      "advancements.tropicaldarkforest.title": "Traveling leads to discovery!",
+      "gui.meyola_biomes.cto.label_vkhod": "Entry",
+      "biome.meyola_biomes.rainy_modifided_dark_forest": "Rainy modifided dark forest",
+      "item.testtttttttttt.ironhammer": "Iron hammer",
+      "item.meyola_biomes.redbook": "Red book",
+      "block.meyola_biomes.saltblock": "Salt block",
+      "item.meyola_biomes.bluepaper": "Blue paper",
+      "block.meyola_biomes.strengthener": "Strengthener",
+      "item.meyola_biomes.limepaper": "Lime paper",
+      "item.meyola_biomes.redpaper": "Red paper",
+      "biome.testtttttttttt.rainy_modifided_dark_forest": "Rainy modifided dark forest",
+      "block.meyola_biomes.redbookshelf": "Red bookshelf",
+      "biome.meyola_biomes.grassplains": "Grassplains",
+      "item.meyola_biomes.greenbook": "Green book",
+      "gui.meyola_biomes.cto.button_ukriepit": "Strengthen",
+      "block.meyola_biomes.unbreakable_floor": "Unbreakable Floor",
+      "biome.testtttttttttt.dripstonedesert": "Dripstonedesert",
+      "block.meyola_biomes.grassgrassblock": "Block of fallen cherry leaves",
+      "item.meyola_biomes.brownbook": "Brown book",
+      "block.meyola_biomes.ionenginesheating": "Ion engine sheating",
+      "item.meyola_biomes.ironhammer": "Iron hammer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "meyola_biomes",
+    "modName": "Мейола Биомес",
+    "version": "1.12.4b",
+    "description": "This mod was create for server Meyola. Thanks Pylo",
+    "author": "Nickolla_Tesla, MCreator",
+    "websiteURL": "https://discord.gg/eqSJhTayUd",
+    "license": "Релиз №24 Версия Релиза: 1.12.4 Дата релиза: 28.04.24",
+    "serverSideOnly": false,
+    "modPicture": "icon2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.testtttttttttt"
+  },
+  "mcreatorVersion": 202400115821
+}
